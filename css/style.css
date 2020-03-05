@@ -7,7 +7,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -439,7 +439,7 @@ body.offcanvas {
 
 .hire {
   padding: 2em;
-  background: #f9bf3f; }
+  background: #e6f7ff; }
   .hire h2 {
     line-height: 1.5; }
   .hire .btn-hire {
@@ -545,7 +545,7 @@ body.offcanvas {
   display: block;
   width: 40px;
   height: 40px;
-  background: #2c98f0;
+  background: #e6f7ff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -557,15 +557,15 @@ body.offcanvas {
   line-height: 40px;
   float: left; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
-    color: #fff; }
+    color: black; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
-    background: #ec5453; }
+    background: #e6f7ff; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-3 {
-    background: #f9bf3f; }
+    background: #e6f7ff; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-4 {
-    background: #a84cb8; }
+    background: #e6f7ff; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-5 {
-    background: #2fa499; }
+    background: #e6f7ff; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-none {
     background: #fff;
     width: 20px;
@@ -731,10 +731,19 @@ body.offcanvas {
 .progress-wrap h3 {
   font-size: 16px;
   font-family: "Quicksand", Arial, sans-serif;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 
+.familiar-wrap h3 {
+  font-size: 16px;
+  font-family: "Quicksand", Arial, sans-serif;
+  margin-bottom: 10px;
+}
+#online-class{
+  color: black;
+}
 .progress {
-  height: 6px;
+  height: 12px;
   -webkit-box-shadow: none;
   box-shadow: none;
   background: #f2f3f7;
@@ -742,71 +751,23 @@ body.offcanvas {
 
 .progress-bar {
   background: #2c98f0;
+
   -webkit-box-shadow: none;
   box-shadow: none;
-  font-size: 12px;
+  text-align: left;
+  font-size: 10px;
   line-height: 1.2;
-  color: #000;
-  font-weight: 600;
-  text-align: right;
+  color: #fff;
+  font-weight: 0;
+
   position: relative;
   overflow: visible;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  border-radius: 8px; }
-  .progress-bar:after {
-    position: absolute;
-    top: -2px;
-    right: 0;
-    width: 10px;
-    height: 10px;
-    content: '';
-    background: #2c98f0;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%; }
+}
+
   .progress-bar span {
-    position: absolute;
-    top: -22px;
-    right: 0; }
-  .progress-bar.color-1 {
-    background: #2c98f0; }
-    .progress-bar.color-1:after {
-      background: #2c98f0; }
-    .progress-bar.color-1 span {
-      color: #2c98f0; }
-  .progress-bar.color-2 {
-    background: #ec5453; }
-    .progress-bar.color-2:after {
-      background: #ec5453; }
-    .progress-bar.color-2 span {
-      color: #ec5453; }
-  .progress-bar.color-3 {
-    background: #f9bf3f; }
-    .progress-bar.color-3:after {
-      background: #f9bf3f; }
-    .progress-bar.color-3 span {
-      color: #f9bf3f; }
-  .progress-bar.color-4 {
-    background: #a84cb8; }
-    .progress-bar.color-4:after {
-      background: #a84cb8; }
-    .progress-bar.color-4 span {
-      color: #a84cb8; }
-  .progress-bar.color-5 {
-    background: #2fa499; }
-    .progress-bar.color-5:after {
-      background: #2fa499; }
-    .progress-bar.color-5 span {
-      color: #2fa499; }
-  .progress-bar.color-6 {
-    background: #4054b2; }
-    .progress-bar.color-6:after {
-      background: #4054b2; }
-    .progress-bar.color-6 span {
-      color: #4054b2; }
+  opacity: 60%;
+}
+
 
 .colorlib-feature {
   text-align: left;
