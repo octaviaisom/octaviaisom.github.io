@@ -1,2 +1,3 @@
 # octaviaisom.github.io
-Customizing a Colorlib template for my personal website (in progress)
+Customized a Colorlib template for my personal website
+(/images/screenshot.png)
